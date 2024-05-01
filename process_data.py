@@ -1,3 +1,7 @@
+# This Python module contains functions for processing data, including reading, shuffling, and generating 
+# poisoned datasets with trigger words for both single and dual sentence tasks. It supports both clean 
+# and synthetic data manipulation for research in data security and integrity in NLP applications.
+
 import random
 import numpy as np
 import os

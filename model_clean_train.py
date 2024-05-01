@@ -1,3 +1,7 @@
+# This Python script is designed to train and validate BERT models for classification tasks (sentiment or sentence pair)
+# using specified training and validation datasets. It includes command-line argument parsing to configure
+# various training parameters such as epochs, batch size, and learning rate.
+
 import random
 import torch
 from transformers import BertTokenizer, BertConfig

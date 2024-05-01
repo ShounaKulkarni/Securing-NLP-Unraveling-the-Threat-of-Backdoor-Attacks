@@ -1,3 +1,6 @@
+# This script is used to split an original dataset into training and development subsets based on a specified ratio.
+# It utilizes a random seed for reproducibility and takes input through command-line arguments to specify the directories and split ratio.
+
 import random
 import numpy as np
 import os

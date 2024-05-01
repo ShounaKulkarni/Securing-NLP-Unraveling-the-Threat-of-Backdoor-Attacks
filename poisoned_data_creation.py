@@ -1,3 +1,6 @@
+# This script constructs poisoned datasets for machine learning models, supporting both data-driven and data-free scenarios.
+# It handles sentiment and sentence-pair tasks, applying a trigger word to manipulate labels based on a specified poison ratio.
+
 import random
 import numpy as np
 import os

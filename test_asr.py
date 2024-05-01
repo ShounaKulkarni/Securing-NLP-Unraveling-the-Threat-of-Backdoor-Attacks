@@ -1,3 +1,7 @@
+# This script evaluates the robustness and susceptibility of a poisoned machine learning model by measuring both 
+# clean and poisoned accuracy and loss. It uses a specified trigger word to modify test data and observes 
+# the model's performance on this manipulated data, comparing it to its performance on clean data.
+
 import random
 import torch
 from transformers import BertTokenizer

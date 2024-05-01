@@ -1,3 +1,7 @@
+# This script defines functions for training and evaluating transformer-based models for binary, multi-label, 
+# and sentence-pair classification tasks using PyTorch. It supports operations like gradient accumulation and 
+# embedding adjustment for experiments in adversarial training.
+
 import random
 import numpy as np
 import torch

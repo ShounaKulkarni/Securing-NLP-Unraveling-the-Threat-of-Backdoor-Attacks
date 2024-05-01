@@ -1,3 +1,6 @@
+# This script trains a backdoored BERT model using poisoned data for sentiment analysis or sentence-pair tasks.
+# It handles command-line arguments to customize training parameters and paths, with support for saving the trained model.
+
 import random
 import torch
 from transformers import BertTokenizer, BertConfig

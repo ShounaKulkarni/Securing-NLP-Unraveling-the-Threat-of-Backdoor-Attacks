@@ -1,3 +1,7 @@
+# This Python script provides comprehensive functionalities for training and evaluating BERT models on classification tasks,
+# handling both clean and poisoned datasets, with support for single-label, multi-label, and sentence-pair classifications.
+# It includes functions for training adjustment via specified triggers and ensures reproducibility with set random seeds.
+
 import random
 import torch
 from transformers import BertTokenizer
